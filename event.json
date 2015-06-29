@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:EXAMPLE",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "TopicArn": "arn:aws:sns:EXAMPLE",
+        "Subject": "TestInvoke",
+        "Message": "2015-03-27 07:00:01^2015-03-27 00:00:01^67.169.128.120^17c15555-96fe-4ca3-b315-457585349605^a2851b9568482f0057e51ccd6f76a90b^SEM^^^Hobbies|Rectangle^^www.cafepress.com^ProductDetails^^1183268212^660^78450966^^^^^AB_ATHENA_US_SRP_HUM:T:F,AB_CAF-2403_B:T:F,AB_CAF-3828:C:F,AB_CAF-4189:T:F,EXP_08_00:C:F,EXP_08_07:T:F^4,google,20150326235959,,search-pla,sem-cpc-product-ads,1183268212|4,google,20150326235959,,search-pla,sem-cpc-product-ads,1183268212^http://www.googleadservices.com/pagead/aclk?sa=L&ai=C6adzx_8UVdujHtHL-QPCyYCQBMLHm6wFysvY3LQBypGyxrsCCAQQBSgFYMnmgYfIo6AZoAHWvoX9A8gBB6oEJE_QJxcRKk-u_s93-MgkI86qsAWS4pkFUEyCRORHO3ErwEcCmsAFBYgGAaAGJoAHksH6ApAHA6gHpr4b2AcB4BKh1-rm6uj5QA&ohost=www.google.com&cid=5Giw3qlZmGWj3gmLyzHhdTOsIhzYEFymO8yWrsg5qoOCq3g&sig=AOD64_17Myw1fvF43ka7FDGxOrDRDIKMBA&ctype=5&rct=j&q=&ved=0CDcQwg8&adurl=http://www.cafepress.com/%2B,1183268212%3Futm_medium%3Dcpc%26utm_term%3D1183268212%26utm_source%3Dgoogle%26utm_campaign%3Dsem-cpc-product-ads%26utm_content%3Dsearch-pla^http://www.cafepress.com/+marine_ega_on_black_rectangular_hitch_cover,1183268212?utm_medium=cpc&utm_term=1183268212&utm_source=google&utm_campaign=sem-cpc-product-ads&utm_content=search-pla^Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; Tablet PC 2.0; rv:11.0) like Gecko^^^^^1095^LVWWEB88",
+        "Timestamp": "1970-01-01T00:00:00.000Z",
+        "SignatureVersion": "1",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "EXAMPLE",
+        "UnsubscribeUrl": "EXAMPLE",
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        }
+      }
+    }
+  ]
+}

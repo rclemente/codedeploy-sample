@@ -1,0 +1,7 @@
+config/aws.json
+config/settings.json
+.idea/
+node_modules/*
+node_modules/.bin/*
+*.iml
+tmp/

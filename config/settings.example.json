@@ -1,0 +1,19 @@
+{
+  "redis": {
+    "port": 6379,
+    "host": "localhost",
+    "db":   3
+  },
+  "flush": {
+    "key":    "csv",
+    "count":  4
+  },
+  "pg": {
+    "connection_string": "postgres://catalog:catalog@localhost/catalog"
+  },
+  "s3": {
+    "bucket": "cp-data-platform-hermes",
+    "upload_folder": "lambda/queue/",
+    "processed_folder": "lambda/finished/"
+  }
+}
