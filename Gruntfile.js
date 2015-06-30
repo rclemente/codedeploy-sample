@@ -8,7 +8,8 @@ grunt.initConfig({
   },
   lambda_deploy: {
     default: {
-      function: 'extractUtmParams'
+      function: 'extractUtmParams',
+      region: 'us-east-1'
     }
   },
   lambda_package: {
