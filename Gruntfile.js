@@ -8,12 +8,19 @@ grunt.initConfig({
   },
   lambda_deploy: {
     default: {
+      //arn: AwsHelper.getFunctionARN('hermes-parser')
+      options: {
+        region: 'us-east-1',
+        profile: 'lambda',
+        timeout: 60
+      },
       function: 'extractUtmParams',
-      region: 'us-east-1'
+      arn: 'arn:aws:lambda:us-east-1:959271857660:function:extractUtmParams'
     }
   },
   lambda_package: {
     default: {
+
     }
   }
 });
